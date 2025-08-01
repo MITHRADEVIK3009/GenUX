@@ -52,20 +52,6 @@ Data flows from collection through statistical and LLM analysis, merging insight
 
 ---
 
-## Key Metrics and Formulas
-
-- **Statistical Significance Score:**  
-  \( \text{Statistical\_Significance} = \sum \left| \frac{\mu_{\text{curr}} - \mu_{\text{prev}}}{\sigma_{\text{pooled}}} \right| / n_{\text{metrics}} \)
-
-- **Change Percent:**  
-  \( \text{Change\_Percent}(m) = \frac{|\text{Average}_{\text{curr}}(m) - \text{Average}_{\text{prev}}(m)|}{\text{Average}_{\text{prev}}(m)} \)  
-  *Drift threshold set empirically at 10%.*
-
-- **Intent Accuracy:**  
-  \( \text{Intent\_Accuracy} = 1 - \left( \sum |\text{Personalization\_Score} - \text{Experience\_Rating}| \right) / (n_{\text{users}} \times 4) \)
-
-- **Adaptation Effectiveness:**  
-  \( \text{Adaptation\_Effectiveness} = \frac{\text{Personalization} + \text{Mobile\_Responsiveness} + \text{Accessibility}}{3} \)
 
 ---
 
